@@ -1,0 +1,11 @@
+C:\Users\Marija\source\repos\Projekat\Biblioteka\bin\Debug\Biblioteka.dll
+C:\Users\Marija\source\repos\Projekat\Biblioteka\bin\Debug\Biblioteka.pdb
+C:\Users\Marija\source\repos\Projekat\Biblioteka\obj\Debug\Biblioteka.csproj.CoreCompileInputs.cache
+C:\Users\Marija\source\repos\Projekat\Biblioteka\obj\Debug\Biblioteka.dll
+C:\Users\Marija\source\repos\Projekat\Biblioteka\obj\Debug\Biblioteka.pdb
+C:\Users\Marija\Desktop\trenutni\ps\Projekat\Biblioteka\bin\Debug\Biblioteka.dll
+C:\Users\Marija\Desktop\trenutni\ps\Projekat\Biblioteka\bin\Debug\Biblioteka.pdb
+C:\Users\Marija\Desktop\trenutni\ps\Projekat\Biblioteka\obj\Debug\Biblioteka.csproj.CoreCompileInputs.cache
+C:\Users\Marija\Desktop\trenutni\ps\Projekat\Biblioteka\obj\Debug\Biblioteka.dll
+C:\Users\Marija\Desktop\trenutni\ps\Projekat\Biblioteka\obj\Debug\Biblioteka.pdb
+C:\Users\Marija\Desktop\trenutni\ps\Projekat\Biblioteka\obj\Debug\Biblioteka.csprojAssemblyReference.cache

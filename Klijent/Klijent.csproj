@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DE1C8073-E10E-4AA2-AF5C-663676111B2F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Klijent</RootNamespace>
+    <AssemblyName>Klijent</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DetaljiODuelu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetaljiODuelu.Designer.cs">
+      <DependentUpon>DetaljiODuelu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetaljiOTimu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetaljiOTimu.Designer.cs">
+      <DependentUpon>DetaljiOTimu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DodajClana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DodajClana.Designer.cs">
+      <DependentUpon>DodajClana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EvidencijaUcesca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EvidencijaUcesca.Designer.cs">
+      <DependentUpon>EvidencijaUcesca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IzmenaClana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IzmenaClana.Designer.cs">
+      <DependentUpon>IzmenaClana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Komunikacija.cs" />
+    <Compile Include="KontrolerKI.cs" />
+    <Compile Include="KreiranjeDuela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KreiranjeDuela.Designer.cs">
+      <DependentUpon>KreiranjeDuela.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KreiranjeTima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KreiranjeTima.Designer.cs">
+      <DependentUpon>KreiranjeTima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PocetnaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PocetnaForma.Designer.cs">
+      <DependentUpon>PocetnaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PretragaDuela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PretragaDuela.Designer.cs">
+      <DependentUpon>PretragaDuela.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PretragaTima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PretragaTima.Designer.cs">
+      <DependentUpon>PretragaTima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DetaljiODuelu.resx">
+      <DependentUpon>DetaljiODuelu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetaljiOTimu.resx">
+      <DependentUpon>DetaljiOTimu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DodajClana.resx">
+      <DependentUpon>DodajClana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EvidencijaUcesca.resx">
+      <DependentUpon>EvidencijaUcesca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IzmenaClana.resx">
+      <DependentUpon>IzmenaClana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KreiranjeDuela.resx">
+      <DependentUpon>KreiranjeDuela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KreiranjeTima.resx">
+      <DependentUpon>KreiranjeTima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PocetnaForma.resx">
+      <DependentUpon>PocetnaForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PretragaDuela.resx">
+      <DependentUpon>PretragaDuela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PretragaTima.resx">
+      <DependentUpon>PretragaTima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Biblioteka\Biblioteka.csproj">
+      <Project>{42141561-6833-4b93-91f4-0519161bf900}</Project>
+      <Name>Biblioteka</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
